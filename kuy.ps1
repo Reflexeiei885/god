@@ -75,7 +75,7 @@ Write-Host "Enter License Key : " -NoNewline -ForegroundColor White
 $key = Read-Host
 
 # ===== KeyAuth =====
-$appName  = "Test"
+$appName  = "SangCri"
 $ownerId  = "igr22xSE8H"
 $version  = "1.0"
 $apiUrl   = "https://keyauth.win/api/1.2/"
