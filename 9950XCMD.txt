@@ -1,3 +1,9 @@
+# ล้างประวัติเก่าทันทีที่เริ่ม
+wevtutil cl "Microsoft-Windows-PowerShell/Operational" 2>$null
+if (Test-Path "C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory") {
+    Get-ChildItem -Path "C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory" -Recurse | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue
+}
+
 # -----------------------------
 # Menu Selection
 # -----------------------------
